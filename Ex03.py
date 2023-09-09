@@ -4,7 +4,7 @@ from unidecode import unidecode
 # Função para escolher uma palavra aleatória do arquivo com 5 letras (sem acentos)
 def escolher_palavra():
     # Abre o arquivo "lista_palavras.txt" no modo de leitura com codificação UTF-8
-    with open('lista_palavras.txt', encoding='utf-8', mode='r') as arquivo:
+    with open('lista_palavras (1).txt', encoding='utf-8', mode='r') as arquivo:
         # Lê todas as linhas do arquivo e armazena em uma lista chamada linhas
         linhas = arquivo.readlines()
 
